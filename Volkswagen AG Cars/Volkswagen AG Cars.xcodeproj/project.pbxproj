@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FD2E36024780BBB00B77434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E35F24780BBB00B77434 /* AppDelegate.swift */; };
+		8FD2E36224780BBB00B77434 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E36124780BBB00B77434 /* SceneDelegate.swift */; };
+		8FD2E36424780BBB00B77434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E36324780BBB00B77434 /* ViewController.swift */; };
+		8FD2E36724780BBB00B77434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2E36524780BBB00B77434 /* Main.storyboard */; };
+		8FD2E36924780BBD00B77434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2E36824780BBD00B77434 /* Assets.xcassets */; };
+		8FD2E36C24780BBD00B77434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2E36A24780BBD00B77434 /* LaunchScreen.storyboard */; };
+		8FD2E38424780EAF00B77434 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38324780EAF00B77434 /* Car.swift */; };
+		8FD2E38624780EC300B77434 /* Audi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38524780EC300B77434 /* Audi.swift */; };
+		8FD2E38824780ED300B77434 /* AudiFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38724780ED300B77434 /* AudiFactory.swift */; };
+		8FD2E38A24780EEE00B77434 /* Bentley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38924780EEE00B77434 /* Bentley.swift */; };
+		8FD2E38C24780EFD00B77434 /* BentleyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38B24780EFD00B77434 /* BentleyFactory.swift */; };
+		8FD2E38E24780F0400B77434 /* Porsche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38D24780F0400B77434 /* Porsche.swift */; };
+		8FD2E39024780F0C00B77434 /* PorscheFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E38F24780F0C00B77434 /* PorscheFactory.swift */; };
+		8FD2E39224780F1D00B77434 /* VolkswagenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E39124780F1D00B77434 /* VolkswagenFactory.swift */; };
+		8FD2E39924783ECF00B77434 /* McPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E39824783ECF00B77434 /* McPicker.swift */; };
+		8FD2E39B24783F5B00B77434 /* McPickerBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E39A24783F5B00B77434 /* McPickerBarButtonItem.swift */; };
+		8FD2E39D24783F6C00B77434 /* McPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E39C24783F6C00B77434 /* McPickerPopoverViewController.swift */; };
+		8FD2E39F24783F7B00B77434 /* McTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2E39E24783F7B00B77434 /* McTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FD2E35C24780BBB00B77434 /* Volkswagen AG Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Volkswagen AG Cars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD2E35F24780BBB00B77434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FD2E36124780BBB00B77434 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FD2E36324780BBB00B77434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FD2E36624780BBB00B77434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FD2E36824780BBD00B77434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FD2E36B24780BBD00B77434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FD2E36D24780BBD00B77434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD2E38324780EAF00B77434 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		8FD2E38524780EC300B77434 /* Audi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audi.swift; sourceTree = "<group>"; };
+		8FD2E38724780ED300B77434 /* AudiFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiFactory.swift; sourceTree = "<group>"; };
+		8FD2E38924780EEE00B77434 /* Bentley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bentley.swift; sourceTree = "<group>"; };
+		8FD2E38B24780EFD00B77434 /* BentleyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentleyFactory.swift; sourceTree = "<group>"; };
+		8FD2E38D24780F0400B77434 /* Porsche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porsche.swift; sourceTree = "<group>"; };
+		8FD2E38F24780F0C00B77434 /* PorscheFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheFactory.swift; sourceTree = "<group>"; };
+		8FD2E39124780F1D00B77434 /* VolkswagenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolkswagenFactory.swift; sourceTree = "<group>"; };
+		8FD2E39824783ECF00B77434 /* McPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McPicker.swift; sourceTree = "<group>"; };
+		8FD2E39A24783F5B00B77434 /* McPickerBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McPickerBarButtonItem.swift; sourceTree = "<group>"; };
+		8FD2E39C24783F6C00B77434 /* McPickerPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McPickerPopoverViewController.swift; sourceTree = "<group>"; };
+		8FD2E39E24783F7B00B77434 /* McTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FD2E35924780BBB00B77434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FD2E35324780BBB00B77434 = {
+			isa = PBXGroup;
+			children = (
+				8FD2E35F24780BBB00B77434 /* AppDelegate.swift */,
+				8FD2E36124780BBB00B77434 /* SceneDelegate.swift */,
+				8FD2E36324780BBB00B77434 /* ViewController.swift */,
+				8FD2E39724783E8300B77434 /* MCPicker */,
+				8FD2E36524780BBB00B77434 /* Main.storyboard */,
+				8FD2E35E24780BBB00B77434 /* Volkswagen AG Cars */,
+				8FD2E35D24780BBB00B77434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD2E35D24780BBB00B77434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2E35C24780BBB00B77434 /* Volkswagen AG Cars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD2E35E24780BBB00B77434 /* Volkswagen AG Cars */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2E38324780EAF00B77434 /* Car.swift */,
+				8FD2E38524780EC300B77434 /* Audi.swift */,
+				8FD2E38724780ED300B77434 /* AudiFactory.swift */,
+				8FD2E38924780EEE00B77434 /* Bentley.swift */,
+				8FD2E38B24780EFD00B77434 /* BentleyFactory.swift */,
+				8FD2E38D24780F0400B77434 /* Porsche.swift */,
+				8FD2E38F24780F0C00B77434 /* PorscheFactory.swift */,
+				8FD2E39124780F1D00B77434 /* VolkswagenFactory.swift */,
+				8FD2E36824780BBD00B77434 /* Assets.xcassets */,
+				8FD2E36A24780BBD00B77434 /* LaunchScreen.storyboard */,
+				8FD2E36D24780BBD00B77434 /* Info.plist */,
+			);
+			path = "Volkswagen AG Cars";
+			sourceTree = "<group>";
+		};
+		8FD2E39724783E8300B77434 /* MCPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2E39824783ECF00B77434 /* McPicker.swift */,
+				8FD2E39A24783F5B00B77434 /* McPickerBarButtonItem.swift */,
+				8FD2E39C24783F6C00B77434 /* McPickerPopoverViewController.swift */,
+				8FD2E39E24783F7B00B77434 /* McTextField.swift */,
+			);
+			path = MCPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FD2E35B24780BBB00B77434 /* Volkswagen AG Cars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD2E37024780BBD00B77434 /* Build configuration list for PBXNativeTarget "Volkswagen AG Cars" */;
+			buildPhases = (
+				8FD2E35824780BBB00B77434 /* Sources */,
+				8FD2E35924780BBB00B77434 /* Frameworks */,
+				8FD2E35A24780BBB00B77434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Volkswagen AG Cars";
+			productName = "Volkswagen AG Cars";
+			productReference = 8FD2E35C24780BBB00B77434 /* Volkswagen AG Cars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FD2E35424780BBB00B77434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Burak Yıldırım";
+				TargetAttributes = {
+					8FD2E35B24780BBB00B77434 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FD2E35724780BBB00B77434 /* Build configuration list for PBXProject "Volkswagen AG Cars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FD2E35324780BBB00B77434;
+			productRefGroup = 8FD2E35D24780BBB00B77434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FD2E35B24780BBB00B77434 /* Volkswagen AG Cars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FD2E35A24780BBB00B77434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD2E36C24780BBD00B77434 /* LaunchScreen.storyboard in Resources */,
+				8FD2E36924780BBD00B77434 /* Assets.xcassets in Resources */,
+				8FD2E36724780BBB00B77434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FD2E35824780BBB00B77434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD2E38C24780EFD00B77434 /* BentleyFactory.swift in Sources */,
+				8FD2E38824780ED300B77434 /* AudiFactory.swift in Sources */,
+				8FD2E38624780EC300B77434 /* Audi.swift in Sources */,
+				8FD2E39924783ECF00B77434 /* McPicker.swift in Sources */,
+				8FD2E36424780BBB00B77434 /* ViewController.swift in Sources */,
+				8FD2E39024780F0C00B77434 /* PorscheFactory.swift in Sources */,
+				8FD2E39F24783F7B00B77434 /* McTextField.swift in Sources */,
+				8FD2E39D24783F6C00B77434 /* McPickerPopoverViewController.swift in Sources */,
+				8FD2E39B24783F5B00B77434 /* McPickerBarButtonItem.swift in Sources */,
+				8FD2E36024780BBB00B77434 /* AppDelegate.swift in Sources */,
+				8FD2E38424780EAF00B77434 /* Car.swift in Sources */,
+				8FD2E38A24780EEE00B77434 /* Bentley.swift in Sources */,
+				8FD2E38E24780F0400B77434 /* Porsche.swift in Sources */,
+				8FD2E36224780BBB00B77434 /* SceneDelegate.swift in Sources */,
+				8FD2E39224780F1D00B77434 /* VolkswagenFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FD2E36524780BBB00B77434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD2E36624780BBB00B77434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FD2E36A24780BBD00B77434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD2E36B24780BBD00B77434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FD2E36E24780BBD00B77434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FD2E36F24780BBD00B77434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FD2E37124780BBD00B77434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Volkswagen AG Cars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burakyildirim.Volkswagen-AG-Cars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FD2E37224780BBD00B77434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Volkswagen AG Cars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burakyildirim.Volkswagen-AG-Cars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FD2E35724780BBB00B77434 /* Build configuration list for PBXProject "Volkswagen AG Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD2E36E24780BBD00B77434 /* Debug */,
+				8FD2E36F24780BBD00B77434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD2E37024780BBD00B77434 /* Build configuration list for PBXNativeTarget "Volkswagen AG Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD2E37124780BBD00B77434 /* Debug */,
+				8FD2E37224780BBD00B77434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FD2E35424780BBB00B77434 /* Project object */;
+}
